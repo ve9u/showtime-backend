@@ -359,8 +359,7 @@ const HOT_SEAT_QUESTIONS = {
     "شنو الشيء اللّي تحس إنك مستحيل تستغني عنه بأسلوب حياتك؟",
     "لو كان عندك فرصة توجه رسالة لنفسك المستقبلية بعد 10 سنوات، شنو تقول؟",
     "شنو انطباعك النهائي عن جلسة الألعاب والونسة ويا الأصدقاء اليوم؟"
-  ]
-};
+  ],
   en: [
     "Most embarrassing moment?",
     "1 Million $ or Time Travel?",
@@ -391,7 +390,7 @@ const GAME_DATA = {
     ],
     en: ["Describe the fastest red object near you!", "Make the funniest sound of a famous icon!"]
   },
- movies_songs: {
+  movies_songs: {
     ar: [
       "مثل مشهد من فيلم معروف بدون كلام وخلي البقية يحزروه!",
       "اذكر اسم فيلم سينمائي يحتوي على رقم في عنوانه!",
@@ -597,7 +596,9 @@ const GAME_DATA = {
       { word: "شفايف", hint: "مرادف الحافة أو طرف الشيء" },
       { word: "رؤية", hint: "التطلع والنظرة المستقبلية للهدف" }
     ]
-  },
+  }
+};
+
 const rooms = {};
 
 function generateCodenamesBoard(packLang = 'ar') {
